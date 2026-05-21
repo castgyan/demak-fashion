@@ -535,7 +535,7 @@ export default function DemakFashionSystem() {
           {/* Sidebar */}
           <aside className={`sidebar ${sidebarOpen ? "" : "mobile-hidden"}`} style={{ transform: sidebarOpen ? "translateX(0)" : undefined }}>
             <div className="sidebar-logo">
-              <div className="sidebar-logo-icon">👗</div>
+              <div className="sidebar-logo-icon">k👗</div>
               <div>
                 <div className="sidebar-logo-text">DEMAK FASHION</div>
                 <div className="sidebar-logo-sub">Industry</div>
@@ -1499,6 +1499,8 @@ function SettingsPage({ showToast }) {
             </button>
           ))}
         </div>
+
+
 
         <div className="glass-card">
           <div className="section-title" style={{ marginBottom: "1.25rem" }}>📱 Mobile Access</div>
