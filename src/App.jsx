@@ -437,14 +437,14 @@ export default function DemakFashionSystem() {
         setLoginStep(2);
         setLoginError("");
       } else {
-        setLoginError("Invalid credentials. Try CEO / DEMAK2024");
+        setLoginError("Invalid credentials. Try ***** / *******");
       }
     } else {
       if (loginData.pin === "1234") {
         setAuthenticated(true);
         setLoginError("");
       } else {
-        setLoginError("Invalid PIN. Try 1234");
+        setLoginError("Invalid PIN. Try *****");
       }
     }
   };
