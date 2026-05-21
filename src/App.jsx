@@ -463,7 +463,7 @@ export default function DemakFashionSystem() {
           <div className="login-wrap">
             <div className="login-card">
               <div className="login-logo">
-                <div className="login-logo-icon">👗</div>
+                <div className="login-logo-icon"></div>
                 <div className="login-title">DEMAK FASHION</div>
                 <div className="login-sub">INDUSTRY • CEO PORTAL</div>
               </div>
