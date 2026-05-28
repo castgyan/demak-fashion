@@ -501,8 +501,8 @@ export default function App(){
 
   const t$=useCallback((msg,icon="✅")=>{setToast({msg,icon});setTimeout(()=>setToast(null),3200);},[]);
   const login=()=>{
-    if(step===1){if(cr.u==="CEO"&&cr.p==="DEMAK2024"){setStep(2);setErr("");}else setErr("Invalid. Try CEO / DEMAK2024");}
-    else{if(cr.pin==="1234"){setAuth(true);setErr("");}else setErr("Wrong PIN. Try 1234");}
+    if(step===1){if(cr.u==="CEO ZONE"&&cr.p==="DEMAK739373"){setStep(2);setErr("");}else setErr("Invalid. Try **** / ******");}
+    else{if(cr.pin==="7393"){setAuth(true);setErr("");}else setErr("Wrong PIN. Try ****");}
   };
 
   const tRev=sales.reduce((s,r)=>s+r.total,0);
