@@ -514,7 +514,7 @@ export default function App(){
     <div style={{position:"relative"}}><div className="bg1"/><div className="bg2"/>
       <div className="login-wrap">
         <div className="login-card">
-          <div className="l-icon">👗</div>
+          <div className="l-icon">DFI</div>
           <div className="l-title">DEMAK FASHION</div>
           <div className="l-sub">Industry · CEO Portal</div><br/>
           {step===1?<>
